@@ -55,7 +55,20 @@ Try to use both the let and const keywords
 //your code here
 let myNum = 23;
 const myAge = "23";
+let thisIsTrue = true;
+let thisIsFalse = false;
+if (thisIsTrue) {
+  console.log("this is indeed true!");
+} else {
+  console.log("this is not true!");
+}
 let x = 10 > 9;
+if (x) {
+  console.log("ja 10 er faktisk større enn 9!");
+} else {
+  console.log("Hæ? Er ikke 10 større enn 9?!");
+}
+
 const cars = ["bmw", "audi", "volvo"];
 
 /****************************************************************************** 
@@ -71,10 +84,15 @@ as well as a few of the shorthand operators (++, --, +=, -=)
 ******************************************************************************/
 
 //your code here
-let age = "23" + "5";
+let age = 23 + 5;
 let number = 10 + 10 - 5 / 3;
 
-let price = "10 ++ 5";
+let price = 10;
+price++;
+// testet ut +=
+console.log(price);
+price += 10;
+console.log(price);
 
 /****************************************************************************** 
 
